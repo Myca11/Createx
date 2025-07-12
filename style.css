@@ -242,3 +242,171 @@ body {
 .m-indicator-active::before {
   background-color: #ffffff;
 }
+
+/* FOOTER */
+
+.footer {
+  height: 52.4vh;
+  background-color: #1E212C;
+}
+
+.footer > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  justify-content: center;
+}
+
+/* FOOTER-UP */
+
+.f-inner-up {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FOOTER-UP-LEFT */
+
+.fu-column-left {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ful-title-inner {
+  display: flex;
+  gap: 60px;
+}
+
+.ful-icos {
+  display: flex;
+  gap: 18px;
+}
+
+.ful-text {
+  max-width: 480px;
+  color: #ffffff99;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+/* FOOTER-CENTER */
+
+.f-inner-center {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FOOTER-CENTER-LEFT */
+
+.fc-column-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+  justify-content: flex-start;
+}
+
+.fcl-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.fcl-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.fcl-text {
+  color: #ffffff99;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* FOOTER-CENTER-CENTER */
+
+.fc-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.fcc-title {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.fcc-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.fcc-link {
+  text-decoration: none;
+  color: #ffffff99;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* FOOTER-CENTER-RIGHT */
+
+.fc-column-right {
+  width: 495px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.fcr-title {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.fcr-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.fcr-link {
+  text-decoration: none;
+  color: #ffffff99;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+/* FOOTER-BOTTOM */
+
+.f-inner-bottom {
+  width: 100%;
+}
+
+.fb-copyright {
+  display: flex;
+  gap: 4px;
+}
+
+.fbc-text {
+  color: white;
+  font-weight: 12px;
+}
